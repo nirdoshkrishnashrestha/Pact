@@ -1,0 +1,748 @@
+/* Commen Elements Start */
+
+.btn {
+	color: #FFF;
+	background-color: #484848;
+}
+
+.btn:hover {
+}
+
+.btn-lefticon {
+}
+
+.create-add { background-image: url(../images/buttons/btn-createoradd.png); }
+.remove-delete { background-image: url(../images/buttons/btn-removeordelete.png); }
+.copy-duplicate { background-image: url(../images/buttons/btn-copyorduplicate.png); }
+.choose-select { background-image: url(../images/buttons/btn-chooseorselect.png); }
+.back-previous { background-image: url(../images/buttons/btn-backorprevious.png); }
+.front-next { background-image: url(../images/buttons/btn-frontornext.png); }
+
+.btn-blue { background-color: #0469be; }
+.btn-blue:hover { background-color: #0582ec; }
+
+.btn-green { background-color: #008200; }
+.btn-green:hover { background-color: #00a800; }
+
+.btn-orange { background-color: #ee440f; }
+.btn-orange:hover { background-color: #ff541f; }
+
+a.tooltip {
+	background-color: #666;
+	color: #fff;
+}
+
+a.tooltip:hover {
+	background-color: #000;
+}
+
+a.tooltip span {
+	background-color: #0469be;
+}
+
+a.tooltip:hover span {
+}
+
+a.tooltip span ins {
+	background: url(../images/arrow-pointer.png) left bottom;
+}
+
+/* Commen Elements End */
+
+/* Header Start */
+
+.header {
+}
+
+/* Logo Start */
+
+.logo {
+}
+
+.logo a {
+}
+
+/* Logo End */
+
+/* User Info Start */
+
+.userinfo {
+	background: url(../images/curve-left-userinfo.png) 0 0 no-repeat;
+}
+
+.userinfo div, .userinfo span, .userinfo a, .userinfo ins {
+	color: #fff;
+}
+
+.userinfo ins {
+	background: url(../images/curve-right-userinfo.png);
+}
+
+.userinfo div {
+	background: url(../images/bg-userinfo.png) 0 0 repeat-x;
+}
+
+.userinfo span {
+	background: url(../images/bg-userinfo-dark.png) 0 0 repeat-x;
+}
+
+.userinfo span span {
+	background: url(../images/seperator-userinfo.png);
+}
+
+.userinfo span a.view-main-site {
+	background: url(../images/icons/icon-view-main-site.png) 0 0 no-repeat;
+}
+
+.userinfo span a.logout {
+	background: url(../images/icons/icon-logout.png) 0 0 no-repeat;
+}
+
+.userinfo a:hover {
+	color: #FF0;
+}
+
+/* User Info End */
+
+/* Header End */
+
+/* Menubar Start */
+
+.menubar {
+	background: #26597e url(../images/bg-grad-white-fadeup.png) left bottom repeat-x;
+}
+
+/* Menubar End*/
+
+
+/* Main Form Table Start */
+
+.main-container {
+}
+
+/* Titlebar Start */
+
+/* Page title start */
+
+.titlebar {
+}
+
+.login-error {
+}
+
+.titlebar h1 {
+}
+
+.titlebar h1 span { font-size: 12px; display: block; }
+
+.titlebar h1 span input {  }
+
+/* Page title end */
+
+/* Global search start */
+
+form.global-searchbar {
+}
+
+.inputbox {
+}
+
+.titlebar div.page-searchbar input.inputbox {
+}
+
+form.global-searchbar input.inputbox {
+	border: 1px solid #06568e;
+}
+
+form.global-searchbar input.searchbtn,
+.titlebar div.page-searchbar input.searchbtn {
+	background: url(../images/bg-search-btn.png) center center;
+	border: 1px solid #c1c2c2;
+}
+.titlebar div.page-searchbar input.searchbtn {
+}
+
+form.global-searchbar input.searchbtn {
+	border: 1px solid #06568e;
+}
+
+/* Global search end */
+
+/* Page search and sort start */
+
+.titlebar div.page-searchbar {
+}
+
+.titlebar div.page-searchbar input.inputbox {
+}
+
+.titlebar div.page-searchbar select {
+}
+
+.titlebar div.page-searchbar input.searchbtn {
+}
+
+/* Page search and sort end */
+
+/* Messages start */
+
+.titlebar .message {
+}
+
+.messages {
+	background: #373737 url(../images/bg-grad-msg.png) 0 0 repeat-x;
+	color: #fff;
+}
+
+.close-msg {
+	background: url(../images/icons/icon-msg-close.png) 0 0 no-repeat;
+}
+
+.close-msg:hover {
+	background: url(../images/icons/icon-msg-close.png) left bottom no-repeat;
+}
+
+.icon-messages {
+}
+
+.icon-success { background: url(../images/icons/icon-success.png); }
+
+.icon-error { background: url(../images/icons/icon-error.png); }
+
+/* Messages end */
+
+/* Titlebar end */
+
+/* Table start */
+
+.table-wrapper {
+	border: 1px solid #d8d9d9;
+	background-color: #fff;
+}
+
+.table-wrapper table {
+}
+
+.table-wrapper table th, .table-wrapper table td {
+	border-bottom: 1px solid #fff;
+	border-left: 1px solid #f7f7f7;
+}
+
+.table-wrapper table tr.odd:hover td,
+.table-wrapper table tr.even:hover td {
+	background-color: #fffbb2;
+}
+
+.table-wrapper table tr.odd td {
+	background-color: #e5e5e5;
+}
+
+.table-wrapper table tr.even td {
+	background-color: #d9d9d9;
+}
+
+.table-wrapper table th {
+	color: #fff;
+	border-left: 1px solid #9f533b;
+	border-bottom: 1px solid #9f533b;
+	background: #b05c41 url(../images/bg-grad-white-fadeup.png) left bottom repeat-x;
+}
+
+.form-wrapper table {
+	border-top: 1px solid #fff;
+}
+
+.table-wrapper table tr:hover td,
+.form-wrapper table tr:hover td {
+	background-color: #efedc9 !important;
+}
+
+.form-wrapper table td {
+	border-bottom: 1px solid #fff;
+	background-color: #f9f9f9;
+	border-top: 2px solid #eee;
+}
+
+.form-wrapper table tr.error {
+	color: #ff0000;
+}
+
+.form-wrapper table tr.error td div.error-msg {
+	border-bottom: 1px solid #000;
+}
+
+.form-wrapper table tr.error td div.error-msg span {
+	background-color: #ff0000;
+}
+
+.form-wrapper table tr.error td div.error-msg span ins {
+	background: url(../images/arrow-pointer-red.png) !important;
+}
+
+.form-wrapper table tr.error td input,
+.form-wrapper table tr.error td textarea {
+	border: 1px solid #ff0000;
+	background: #fff url(../images/bg-input-error.png) left bottom repeat-x;
+}
+
+.form-wrapper table tr td textarea {
+}
+
+.form-wrapper table span.input-info {
+	color: #0469b1;
+}
+
+.form-wrapper table tr.error span.input-info {
+	color: #ff0000;
+}
+
+.form-wrapper .imagethumbs-form {
+}
+
+.form-wrapper .imagethumbs-form .close-msg {
+	background-color: #000;
+}
+
+.form-wrapper .imagethumbs-form div.imagethumb-form {
+}
+
+.form-wrapper .imagethumbs-form a.img-wrap {
+	border: 1px solid #999;
+	background-color: #fff;
+}
+
+.form-wrapper .imagethumbs-form a.img-wrap:hover {
+	border: 1px solid #666;
+}
+.form-wrapper .imagethumbs-form div.imagethumb-form span.img-wrapper {
+	background: url(../images/whitetrans-70pc.png);
+	border-bottom: 1px solid #fff;
+}
+
+.form-wrapper .imagethumbs-form div.imagethumb-form ins.input-wrap {
+	background: url(../images/blacktrans-50pc.png);
+}
+
+.form-wrapper .imagethumbs-form div.imagethumb-form ins.input-wrap input {
+}
+
+.form-wrapper .imagethumbs-form .btn {
+}
+
+/* Table items name start */
+
+.table-wrapper table td.table-item-name a {
+	color: #333;
+}
+
+.table-wrapper table td.table-item-name a:hover {
+	color: #000;
+}
+
+.table-wrapper table th.table-item-name a {
+	background-color: #26597e;
+}
+
+.table-wrapper table th.table-item-name a.ascending {
+	background-image: url(../images/arrow-order-up.png);
+}
+
+.table-wrapper table th.table-item-name a.descending {
+	background-image: url(../images/arrow-order-down.png);
+}
+
+.table-wrapper table th.table-item-name a:hover {
+	background-color: #7d4432;
+}
+
+/* Table items name end */
+
+/* Table items banner thumb popup end */
+
+.table-wrapper table a.banner-thumb-popup {
+	color: #26597e;
+}
+
+.form-wrapper a.banner-thumb-popup {
+}
+
+.table-wrapper table a.banner-thumb-popup:hover {
+	color: #000;
+}
+
+.table-wrapper table a.banner-thumb-popup span,
+.table-wrapper table a.banner-thumb-popup:hover span {
+	background-color: #575757;
+	border: 2px solid #414141;
+}
+
+.table-wrapper table a.banner-thumb-popup:hover span {
+}
+
+.table-wrapper table a.banner-thumb-popup span ins {
+	background: url(../images/arrow-banner-thumb-popup.png);
+}
+
+.table-wrapper table a.banner-thumb-popup span img {
+	border: 1px solid #fff;
+}
+
+/* Table items banner thumb popup end */
+
+/* Table items ordering start */
+
+.table-wrapper table a.save-order {
+	background: url(../images/icons/icon-save-order.png) right 1px no-repeat;
+}
+
+.table-wrapper table a.save-order:hover {
+	background: url(../images/icons/icon-save-order.png) right bottom no-repeat;
+}
+
+.table-wrapper table span.order-input {
+}
+
+.table-wrapper table span.order-input input {
+	background-color: #f4f4f4;
+	border: 1px solid #979797;
+}
+
+.table-wrapper table span.order-input a {
+	background-color: #26597e;
+}
+
+.table-wrapper table span.order-input a.order-up { 
+	background-image: url(../images/arrow-order-up.png);
+}
+
+.table-wrapper table span.order-input a.order-down {
+	background-image: url(../images/arrow-order-down.png);
+}
+
+.table-wrapper table span.order-input a:hover {
+	background-color: #b05c41;
+}
+
+/* Table items ordering end */
+
+/* Table items actions end */
+
+span.table-icons {
+}
+
+.icons-table-actions {
+}
+
+.icon-edit-table-action {
+	background-image: url(../images/icons/icon-edit.png);
+	background-color: #0b6eb3;
+}
+
+.icon-edit-table-action:hover {
+	background-color: #085285;
+}
+
+.icon-delete-table-action {
+	background-image: url(../images/icons/icon-delete.png);
+	background-color: #ff0000;
+}
+
+.icon-delete-table-action:hover {
+	background-color: #c30000;
+}
+
+.icon-view-table-action {
+	background-image: url(../images/icons/icon-view.png);
+	background-color: #008200;
+}
+
+.icon-view-table-action:hover {
+	background-color: #006400;
+}
+
+.icon-restore-table-action {
+	background-image: url(../images/icons/icon-restore.png);
+	background-color: #00323c;
+}
+
+.icon-restore-table-action:hover {
+	background-color: #002128;
+}
+
+.icon-verify-table-action {
+	background-image: url(../images/icons/icon-verify.png);
+	background-color: #700960;
+}
+
+.icon-verify-table-action:hover {
+	background-color: #540748;
+}
+
+/* Table items actions end */
+
+/* Table item quick edit box start */
+
+.quick-edit-row-hidden {
+}
+
+.quick-edit-expanded td.table-item-name {
+	background-color: #CCC !important;
+}
+
+.quick-edit-row-visible {
+	background-color: #CCC;
+}
+
+.quick-edit-row-visible td.blank-td {
+	background-color: #e5e5e5;
+}
+
+.quickeditbox {
+	background-color: #CCC;
+}
+
+.quickeditbox div {
+	background: url(../images/arrow-quickeditbox.png);
+}
+
+.quickeditbox table {
+	background-color: #f2f2f2;
+	border: 1px solid #bdbdbd;
+}
+
+.quickeditbox table td {
+	border-bottom: 1px solid #fff;
+}
+
+.quickeditbox table td .btn {
+	background-color: #0469b1;
+	color: #fff;
+}
+
+.quickeditbox table td .btn:hover {
+	background-color: #555;
+	color: #fff;
+}
+
+.icon-table-item-quickedit {
+	border: 1px solid #808080;
+}
+
+.icon-expand {
+	background-image: url(../images/icons/icon-expand.png);
+}
+
+.icon-minimize {
+	background-image: url(../images/icons/icon-minimize.png);
+}
+
+/* Table item quick edit box end */
+
+/* Banner Quick Edit Start */
+
+.banner-quick-edit-form {
+}
+
+.banner-quick-edit-form img {
+}
+
+.banner-quick-edit-form div {
+	border-bottom: 1px dotted #999;
+	background-color: #e5e5e5;
+}
+
+.banner-quick-edit-form h2 {
+	color: #666;
+	border-bottom: 1px dotted #999;
+}
+
+.banner-quick-edit-form h3 {
+	color: #666;
+}
+
+/* Table Footer Start */
+
+.table-footer {
+}
+
+.table-footer .btn {
+}
+
+/* Table pagination start */
+
+.table-pagination {
+}
+
+.table-pagination .btn {
+}
+
+.table-pagination select {
+}
+
+.page-numbers {
+	background: #fff url(../images/bg-input.png) left bottom repeat-x;
+	border: 1px solid #c1c2c2;
+}
+
+.page-numbers a {
+	color: #4c4c4c;
+}
+
+.page-numbers a:hover {
+	color: #000;
+}
+
+.page-numbers span {
+	border: 1px solid #844531;
+	background-color: #b05c41;
+}
+
+/* Table pagination start */
+
+/* Table Footer End */
+
+
+/* Table End */
+
+/* Admin footer start */
+
+.footer {
+	color: #fff;
+}
+
+.footer a {
+	background: url(../images/tqid-logo.png);
+}
+
+/* Admin footer end */
+
+
+
+/* Login Start */
+
+.loginbar-only {
+}
+
+.login-container form {
+}
+
+.login-container form.error {
+	color: #ff0000;
+}
+
+.login-container form h1 {
+	background: #26597e url(../images/bg-grad-msg.png) 0 0 repeat-x;
+	color: #fff;
+}
+
+.login-container form.error h1 {
+	background: #ff0000 url(../images/bg-grad-msg.png) 0 0 repeat-x;
+}
+
+.login-container form h1 span {
+	background: url(../images/icons/icon-lock.png);
+}
+
+.login-container form div.outer {
+	border: 5px solid #26597e;
+	background: #fafafa url(../images/bg-loginbox.png) 0 0 no-repeat;
+	border-top: none;
+}
+
+.login-container form.error div.outer {
+	border: 5px solid #ff0000;
+	border-top: none;
+}
+
+.login-container form div.outer p {
+	border-bottom: 1px dotted #7d7d7d;
+
+.login-container form.error div.outer p {
+	border-bottom: 1px dotted #ff0000;
+}
+
+.login-container form div.outer input {
+}
+
+.login-container form div.outer .inputbox {	
+	background: #fff url(../images/bg-input.png) left bottom repeat-x;
+}
+
+.login-container form.error div.outer .inputbox {
+	border: 1px solid #ff0000;
+}
+
+.login-container form div.outer label {
+	padding-top: 10px;
+}
+
+.login-container form div.outer label.last {
+	border-bottom: 1px dotted #7d7d7d;
+}
+
+.login-container form.error div.outer label.last {
+	border-bottom: 1px dotted #ff0000;
+}
+
+.login-container form div.outer label.password {
+}
+
+.login-container form div.outer label.password a,
+.form-wrapper table tr.error div.error-msg span {
+	background: #ee450f url(../images/bg-grad-msg.png) 0 0 repeat-x;
+	color: #fff;
+}
+
+.login-container form.error div.outer label.password a {
+	background: #26597e url(../images/bg-grad-msg.png) 0 0 repeat-x;
+}
+
+.login-container form div.outer label.password a:hover {
+	background: #26597e url(../images/bg-grad-msg.png) 0 0 repeat-x;	
+}
+
+.login-container form.error div.outer label.password a:hover {
+	background: #ee450f url(../images/bg-grad-msg.png) 0 0 repeat-x;	
+}
+
+.login-container form div.outer label.password ins,
+.form-wrapper table tr.error td div.error-msg span ins {
+	background: url(../images/arrow-pointer.png);
+}
+
+.login-container form div.outer label.password a:hover ins {
+	background: url(../images/arrow-pointer.png) left bottom no-repeat;
+}
+
+.login-container form.error div.outer label.password ins {
+	background: url(../images/arrow-pointer.png) left bottom no-repeat;
+}
+
+.login-container form.error div.outer label.password a:hover ins {
+	background: url(../images/arrow-pointer.png) 0 0;
+}
+
+.login-container form div.outer label span {
+	display: inline-block;
+	width: 80px;
+	vertical-align: middle;
+}
+
+.login-container form div.outer label .btn {
+	padding-top: 0;
+	height: 24px;
+	padding: 0 29px 0 8px;
+	font-size: 11px;
+	text-transform: uppercase;
+	background-color: #ee450f;
+}
+
+.login-container form.error div.outer label .btn {
+	background-color: #ff0000;
+}
+
+.login-container form div.outer label .btn:hover {
+	background-color: #000;
+}
+
+/* Login End*/

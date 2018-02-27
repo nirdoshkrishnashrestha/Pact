@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*--------------- Global Reset Start ------------------*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, del, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+/*table,*/ caption/* tbody, tfoot, thead, tr, th, td*/ {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+:focus {
+	outline: none;
+	outline: 0;
+}
+
+strong {
+	font-weight: bold;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+
+/*------------------------- Global Start -----------------------------*/
+
+
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	background-color: #000;
+	color: #4c4c4c;
+}
+
+dl, dt, dd, .ulreset, .ulreset li { margin: 0px; padding: 0px; list-style: none; float: left; }
+
+h1, h2, h3 { margin: 0px; padding: 0px; font-weight: normal; }
+
+h1 { font-size: 26px; color: #484848; }
+
+.content h2 { font-size: 35px; color: #fff994; background: url(images/bullet-h2.png) 0 5px no-repeat; padding: 0 0 15px 50px; height: 43px; border-bottom: 1px dotted #383838; }
+
+h3 { font-size: 14px; color: #ffffff; font-weight: bold; }
+
+:focus { outline: none; }
+
+/*p { margin-top: 10px; line-height: 23px; font-size: 13px; color: #808080; }*/
+
+a { text-decoration: none; color:inherit }
+
+a:hover { text-decoration:underline; }
+
+input, textarea, select { font-family: Tahoma, Geneva, sans-serif; font-size: 11px; color: #5f5f5f; vertical-align: middle; }
